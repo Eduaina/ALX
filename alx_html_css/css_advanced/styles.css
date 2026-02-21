@@ -1,0 +1,546 @@
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* general body specifications */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* styling section1 */
+
+   /* adding the background image to the header and main section */
+   .section1 {
+    background-image: url(Object.png);
+   }
+
+/* styling the entire header */
+
+/* General styling of the header and making the full header fixed and immovable and not touch the sides of the screen */
+header {
+    display: flex;
+    /* position: sticky;
+    top: 0; */
+    cursor: pointer;
+    margin: 100px;
+    margin-top: 20px;
+}
+
+/* spacing the 2 divs in the header appropriately */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+   /* getting the contents of this div in a straight line by flexing the display*/
+.header1{
+    display: flex;
+    margin: 10px;
+}
+
+/* styling the company name */
+.header1 h2{
+    font-weight: 100;
+    margin: 3px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    color: #feffff;
+}
+
+/* to create space between the logo and the name */
+.header-name {
+    padding: 15px;
+}
+
+/* to align the the logo to newly adjusted name */
+.svg-header {
+    padding: 15px;
+}
+
+ /* getting the contents of this div in a straight line by flexing the display*/
+.header2{    
+    display: flex;  
+    padding: 10px;
+}
+
+/* spacing between each list item and removing the dots */
+.header2 li{
+    list-style: none;
+    padding: 12px;
+}
+
+/* changing the anchor tag text colour */
+.header2 li a {
+    text-decoration: none;
+    color: #dce0e3;
+    font-weight: 500;
+}
+
+/* changing the hoover color of the header */
+.header2 li a:hover {
+    color: #c56fff;
+}
+/* header done and dusted */
+
+/* styling the main section still in section1 but the actual hero section */
+
+.hero {
+    width: 80%;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styling the h1 text div inside hero1 */
+.h1-hero {
+    font-weight: 900;
+    color: #fafafa;
+    font-size: 9vmax;
+    line-height: 1;
+    margin-left: 420px;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+/* styling the span div inside hero1  */
+.span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fafafa;
+    font-size: 19px;
+    line-height: 1;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+/* changing the hoover color of the span li */
+.span :hover {
+    color: black;
+}
+
+/* styling the buttons */
+.first-button {
+    cursor: pointer;
+    background-color: #c56fff;
+    color: #fafafa;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px; /* Optional, for rounded corners */
+    margin-left: 670px;
+    cursor: pointer;
+    box-shadow: 5px -5px 30px rgba(0, 0, 0, 0.5); /* Prominent shadow */
+    transition: box-shadow 0.9s ease, transform 0.9s ease; /* Smooth hover effects *//
+ }
+
+ /* styling the (h2,pictures and p tag) last part of the main section/section 1 */
+ .main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+ }
+
+ /* styling the h2 element in main2 */
+ .main2 h2 {
+    font-size: 34px;
+    font-weight: 500;
+    margin-left: 150px;
+ }
+
+ /* styling just the first word in h2 purple */
+ .main2 h2 span {
+    color: #c56fff;
+ }
+
+ /* styling the pictures in main-main3 */
+ .main3 {
+    display: flex;
+    flex: 10px 10px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+
+ /* styling the only square image to fit with the other circular images */
+ .square-image {
+   border-radius: 50%;
+ }
+
+ /* Spacing all the divs in main3 appriopriately */
+ .main3-div {
+    margin: 45px;
+ }
+
+ /* styling all the h3 in the main3 */
+ .main3 h3 {
+    color: #f7ffff;
+    font-weight: 900;
+    margin-top: 9px;
+ }
+
+ /* styling all p elements in main3  */
+ .main3 p {
+    color: #f7ffffac;
+    margin-top: 8px;
+    margin-bottom: -10px;
+ }
+
+ /* styling the 2nd line of the p after the br.......not working yet, still figuring this out */
+ 
+ /* section 1 done and dusted */
+
+
+
+ /* Section 2 */
+ /* styling section2 parent section and adding the background colour purple */
+ .section2 {
+    background: #c56fff;
+    width: 100%;
+ }
+
+ /* styling the sub parent div containg both the image and text section2.1  and centering the content */
+ .section2-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+ }
+
+
+ /* styling the section2 image  */
+ .section2-img {
+    margin: 20px;
+ }
+
+ /* styling the section2 text */
+ .section2-text {
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.5;   
+ }
+
+ /* styling section2 text blockquote */
+ .section2-text blockquote {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #f7ffffca;
+ }
+
+ /* styling section2 text h3 */
+ .section2-text h3 {
+    font-size: 21px;
+    color: #f7ffff;
+    font-weight: bold;
+ }
+
+ /* styling section2 text p */
+ .section2-text p {
+    font-size: 21px;
+    color: #f7ffffca;
+ }
+ /* Section2 done and dusted */
+
+ /* Styling section3 */
+ .section3 {
+    background: white;
+ }
+
+ /* styling tthe section3 h2 */
+ .section3 h2 {
+    font-size: 30px;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.612);
+ }
+
+ /* styling the middle word of the h2 text purple */
+ .section3 h2 span {
+    color: #c56fff;
+ }
+
+ /* styling the sub parent div section3-1 and putting the contents of the 4 divs inside in a row */
+ .section3-1 {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 80px;
+    margin-left: 180px;
+ }
+
+ /* styling the divs individually so they stay in a horizontal row as well as pllacing the play button in the middle of the image*/
+ .divs4 {
+    flex: 1;
+    max-width: 25%;
+    position: relative; /* Establish a positioning context */
+    margin: 20px;
+ }
+
+ /* since there are 2 images, the larger image should fill up the space */
+/* while the smaller image should be centered */
+.smaller-img {
+   position: absolute; /* Position relative to the container */
+   top: 50%; /* Move to the center vertically */
+   left: 50%; /* Move to the center horizontally */
+   transform: translate(-80%, -190%); /* Adjust for the smaller image's size */
+   width: 50px; /* Adjust the size of the smaller image */
+ }
+
+
+/* styling the h3 in divs4 */
+.divs4 h3 {
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+   margin: 7px;
+}
+
+/* styling the p in divs4 */
+.divs4 p {
+   color: #56575a;
+   font-size: 13px;
+   margin: 7px;
+   line-height: 1.5;
+}
+
+/* styling divs4 h4 and image div */
+.img4 {
+   margin: 7px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+/* styling the h4 alone */
+.img4 h4 {
+   font-size: 13px;
+   color: #c56fff;
+   margin-left: 15px;
+   padding: 6px;
+}
+
+ /* arranging all the stars in a row and adding colour */
+ .stars {
+    display: flex;
+    flex-direction: row;
+    color: #c56fffa8;
+    margin: 7px;
+ }
+
+ /* styling the last star with a seperate colour */
+ .stars span {
+   color: #dadadfce;
+ }
+
+ /* styling the last p in .stars */
+ .stars p {
+   color: #c56fff;
+   margin-left: 60px;
+   margin-top: -2px;
+}
+/* Section3 done and dusted */
+
+/* styling section4 */
+/* adding a black background colour */
+.section4 {
+   background: #071629;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+/* styling section4 h2 */
+.section4 h2 {
+   color: #dce0e3;
+   text-align: center;
+   margin-top: 80px;
+}
+
+/* stylind the first word of h2 a different colour */
+.section4 h2 span {
+   color: #c56fff;
+}
+
+/* styling all the divs into a horizontal row */
+.section4-1 {
+   display: flex;
+   flex-direction: row;
+   margin: 30px;
+   width: 80%;
+   margin-left: 150px;
+}
+
+/* styling the individual divs in section4-1 */
+.smile {
+   margin: 20px;
+}
+
+/* styling the images in section4 */
+.smile img {
+   margin-left: 70px;
+   margin-top: 20px;
+}
+
+/* styling the h3 of the div smile */
+.smile h3 {
+   color: #dce0e3;
+   text-align: center;
+   margin-top: 20px;
+   margin-right: 50px;
+}
+
+/* styling the p of the div smile */
+.smile p {
+   color: #dce0e3c1;
+   margin-top: 15px;
+   line-height: 1.5;
+}
+
+/* styling the last button */
+.last-button {
+   width: 18%;
+   margin-bottom: 70px;
+   cursor: pointer;
+   background-color: #c56fff;
+   color: #fafafa;
+   font-size: 16px;
+   padding: 10px 20px;
+   margin-top: 30px;
+   border-radius: 50px; /* Optional, for rounded corners */
+   margin-left: 550px;
+   cursor: pointer;
+   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5); /* Prominent shadow */
+   transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth hover effects *//
+}
+/* Section4 done and dusted */
+
+/* styling section5 */
+/* adding the white background colour */
+.section5 {
+   background: white;
+}
+
+/* styling section5 h2 */
+.section5 h2 {
+   color: rgba(0, 0, 0, 0.653);
+   text-align: center;
+   margin-top: 60px;
+   font-size: 45px;
+}
+
+/* styling both divs of 2 into a horizontal row making a box of 4 */
+.row {
+   display: flex;
+   flex-direction: row;
+   width: 85%;
+   justify-content: space-around;
+   margin-left: 105px;
+   margin-top: 70px;
+   margin-bottom: 90px;
+}
+
+/* styling 2 divs togrther as a vertical column to later be group styled as rows which form grids/boxwa */
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+/* styling all the h3 in column */
+.column1 {
+   line-height: 4;
+   font-weight: bolder;
+}
+
+/* styling the text div */
+.column2 {
+   font-size: 15px;
+   color: #56575aa4;
+   line-height: 1.5;
+}
+/* section5 done and dusted */
+
+/* last section - Styling of the Footer  */
+footer {
+   background: #071629;
+    cursor: pointer;
+}
+
+.last-footer {
+   margin: 14px;
+}
+
+/* arranging the div foot */
+.foot {
+   display: flex;
+   flex-direction: row;
+   width: 80%;
+   margin-top: 60px;
+   margin-left: 120px;
+   margin-bottom: 40px;
+}
+
+/* arranging the svg/logo in footer */
+.foot svg {
+   margin: 10px;
+}
+
+/* styling the company name in the footer */
+.foot h5 {
+   color: #dce0e3;
+   margin: 20px;
+   font-weight: bolder;
+} 
+
+/* arranging the icons in footer */
+.icons {
+   color: white;
+   margin-left: 740px;
+   display: flex;
+   flex-direction: row;
+}
+
+/* more arrangements for the icons in the footer and giving them more circles */
+.icons i {
+   padding: 10px;
+}
+
+/* experimenting styling the icons to be centered in a circle */
+.icon-wrapper {
+   display: inline-flex; /* Aligns the icons inline */
+   margin: 9px;
+   justify-content: center; /* Centers the icon horizontally */
+   align-items: center; /* Centers the icon vertically */
+   width: 22px; /* Adjust the size of the circle */
+   height: 22px; /* Make it a perfect circle */
+   background-color: white; /* Fill the area with white */
+   border-radius: 50%; /* Creates the circular shape */
+   color: #1f2021; /* Icon or text color */
+   font-size: 14px; /* Adjust the font size of the icon */
+ }
+
+/* Arranging and styling the last p which is the copyright and logo */
+.pfoot {
+   color: #dce0e369;
+   text-align: center;
+   margin-right: 20px;
+   margin-bottom: 30px;
+}  
+/* Footer section done and dusted */

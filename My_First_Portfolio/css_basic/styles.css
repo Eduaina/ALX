@@ -1,0 +1,46 @@
+* {
+    background-image: url(Brenda.jpg);
+}
+
+body {
+    /* for when content have to be arranged side by side or stacked ontop of each other in the body,it must be told that its a container to flexible boxes */
+    display: flex;
+    /* to specify that the content should be stacked ontop of each other in column form */
+    flex-direction: column;
+    background-color: hwb(216 0% 0% / 0.461);
+    
+}
+
+main {
+    /* for when content have to be arranged side by side or stacked ontop of each other in the body, it must be told that its a container to flexible boxes */
+    display: flex;
+     /* to specify that the content should be placed side by side of each other in row form */
+    flex-direction: row;
+    /* to ensure the main tag keeps automatic height and width */
+    flex: auto;
+    width: 100%;
+    
+}
+
+article {
+    /* to be sure that your content (article) takes ⅔ of the width of the page */
+    flex: 2;
+    /* to be sure that the user can scroll within your article */
+    overflow-y: auto;
+}
+
+aside {
+    /* to be sure that your content (aside) takes ⅓ of the width of the page */
+    flex: 1;
+    /* to be sure that the user can scroll within your aside */
+    overflow-y: auto;
+}
+header {
+    width: 100%;
+    /* position and top to make the navbar stay at the top of the page even while scrolling */
+    position: sticky;
+    top: 0;
+}
+footer {
+    width: 100%;
+}
